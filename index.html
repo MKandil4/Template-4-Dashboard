@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Font Awesome -->
+    <!-- FrameWorke Css -->
+    <link rel="stylesheet" href="css/framework.css" />
+    <!-- FrameWorke Css -->
+    <!-- Master Css -->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Master Css -->
+    <title>Kandil | Dashboard</title>
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative txt-center mt-0">Kandil</h3>
+        <ul>
+          <li>
+            <a
+              class="active d-flex align-center c-black fs-14 radius-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span class="hide-mobile">Dashboard</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="d-flex align-center c-black fs-14 radius-6 p-10"
+              href="settings.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Setting</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="d-flex align-center c-black fs-14 radius-6 p-10"
+              href="profile.html"
+            >
+              <i class="fa-solid fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="d-flex align-center c-black fs-14 radius-6 p-10"
+              href="project.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Project</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="d-flex align-center c-black fs-14 radius-6 p-10"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="d-flex align-center c-black fs-14 radius-6 p-10"
+              href="friends.html"
+            >
+              <i class="fa-solid fa-user-group fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="d-flex align-center c-black fs-14 radius-6 p-10"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="d-flex align-center c-black fs-14 radius-6 p-10"
+              href="plans.html"
+            >
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content full-width">
+        <div class="head bg-white p-15 flex-between">
+          <div class="search p-relative">
+            <input type="search" placeholder="Type A Keyword" />
+          </div>
+
+          <div class="icons d-flex align-center">
+            <span class="notification p-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="images/avatar.png" alt="avatar image" />
+          </div>
+        </div>
+        <h1 class="p-relative">Dashboard</h1>
+
+        <div class="wrapper d-grid gap-20">
+          <div class="welcome bg-white radius-10 txt-c-mobile d-block-mobile">
+            <div class="intro bg-eee p-20 d-flex flex-between">
+              <div>
+                <h2 class="m-0">Welcome</h2>
+                <p class="c-grey mt-5">Kandil</p>
+              </div>
+              <img
+                src="images/welcome.png"
+                class="d-none-mobile"
+                alt="welcome image"
+              />
+            </div>
+
+            <img class="avatar" src="images/avatar.png" alt="avatar image" />
+
+            <div
+              class="body d-flex flex-between p-20 d-block-mobile txt-center"
+            >
+              <div class="txt-center mb-20">
+                Mohamed Kandil
+                <span class="d-block c-grey mt-5">Front End Developer</span>
+              </div>
+              <div class="txt-center mb-20">
+                80
+                <span class="d-block c-grey mt-5">Project</span>
+              </div>
+              <div class="txt-center mb-20">
+                $8500
+                <span class="d-block c-grey mt-5">Earned</span>
+              </div>
+            </div>
+            <div class="p-20">
+              <a href="profile.html" class="btn-shape visit">Profile</a>
+            </div>
+          </div>
+
+          <div class="quik-draft bg-white radius-10 p-20">
+            <h2 class="m-0 mb-10">Quick Draft</h2>
+            <p class="c-grey mb-10">Write A Draft For Your Ideas</p>
+            <form class="full-width">
+              <input
+                class="d-block full-width mb-20 radius-10 p-10 bg-eee"
+                type="text"
+                placeholder="Title"
+              />
+              <textarea
+                class="d-block full-width p-10 bg-eee radius-10"
+                placeholder="Your Thought"
+              ></textarea>
+            </form>
+            <input type="submit" value="Save" class="save btn-shape" />
+          </div>
+          <!--
+          <div class="yearly-targets bg-white radius-6">
+            <h2>Yearly Targets</h2>
+          </div>
+
+          <div class="tickets-statistics bg-white radius-6">
+            <h2>Tickets Statistics</h2>
+          </div>
+
+          <div class="latest-news bg-white radius-6"><h2>Latest News</h2></div>
+
+          <div class="latest-tasks bg-white radius-6">
+            <h2>Latest Tasks</h2>
+          </div>
+
+          <div class="top-search-items bg-white radius-6">
+            <h2>Top Search Items</h2>
+          </div>
+
+          <div class="latest-uploads bg-white radius-6">
+            <h2>Latest Uploads</h2>
+          </div>
+
+          <div class="last-project-progress bg-white radius-6">
+            <h2>Last Project Progress</h2>
+          </div>
+
+          <div class="reminders bg-white radius-6"><h2>Reminders</h2></div>
+
+          <div class="latest-post bg-white radius-6"><h2>Latest Post</h2></div>
+
+          <div class="social-media bg-white radius-6">
+            <h2>Social Media Stats</h2>
+          </div>
+
+          <div class="projects bg-white radius-6"><h2>Projects</h2></div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
