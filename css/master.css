@@ -395,7 +395,7 @@ ul {
   content: "";
   width: 20px;
   height: 20px;
-  display: block;
+  /* display: block; */
   border-radius: 50%;
   background-color: white;
   border: 2px solid white;
@@ -427,30 +427,22 @@ ul {
 }
 /* End Project Progress */
 /* Start Reminders */
-.reminders .circle {
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 14px;
+.reminders ul li .circle {
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
-  background-color: var(--blue-color);
-  top: 50%;
-  left: -20px;
-  transform: translate(-50%, -50%);
 }
-.reminders .circle {
-  content: "";
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background-color: var(--green-color);
-  top: 50%;
-  left: -20px;
-  transform: translate(-50%, -50%);
-}
-.reminders ul li .blue {
+.reminders ul li > .blue {
   border-left: 2px solid var(--blue-color);
+}
+.reminders ul li > .green {
+  border-left: 2px solid var(--green-color);
+}
+.reminders ul li > .orange {
+  border-left: 2px solid var(--orange-color);
+}
+.reminders ul li > .red {
+  border-left: 2px solid var(--red-color);
 }
 /* End Reminders */
 /* Start Post */

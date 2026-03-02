@@ -168,6 +168,9 @@
 .bg-white {
   background-color: white;
 }
+.bg-eee {
+  background-color: #eee;
+}
 .bg-grey {
   background-color: #f6f6f6;
 }
@@ -180,8 +183,8 @@
 .bg-green {
   background-color: var(--green-color);
 }
-.bg-eee {
-  background-color: #eee;
+.bg-red {
+  background-color: var(--red-color);
 }
 /* End Background - Colors */
 

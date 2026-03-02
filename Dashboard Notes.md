@@ -281,6 +281,14 @@ div (h2 + p) ✔️
 
 ## 10- Box Reminders
 
+parnt div - position relative
+h2 mt-0 mb-25
+ul m-0
+li > span circle
+
+> div > p
+span
+
 ## 11- Box Post
 
 ## 12- Box Social Media
