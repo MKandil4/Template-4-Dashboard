@@ -7,8 +7,11 @@ Unlike previous templates, this project introduces a custom utility framework bu
 
 🛠 Built With
 ✔️ HTML
+
 ✔️ CSS
+
 ✔️ Custom Utility Framework (Built From Scratch)
+
 ---
 ## 🎯 Key Features & Concepts Practiced
 
@@ -40,11 +43,16 @@ Unlike previous templates, this project introduces a custom utility framework bu
 
 ## 🧠 Architecture Approach
 
-✔️ This project applies Framework Thinking:
+✔️ This project applies Framework Thinking
+
 ✔️ Base Utilities (spacing, colors, typography)
+
 ✔️ Responsive Utility Layer
+
 ✔️ Component Styling Layer
+
 ✔️ Reusable Layout Patterns
+
 ✔️ The custom framework system was designed to simulate real-world UI library behavior and improve scalable CSS architecture skills.
 
 ----
