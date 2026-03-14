@@ -151,7 +151,12 @@
 
               <div>
                 <label for="toggle">
-                  <input type="checkbox" id="toggle" class="toggle-checkbox" />
+                  <input
+                    type="checkbox"
+                    id="toggle"
+                    class="toggle-checkbox"
+                    checked
+                  />
                   <div class="toggle-switch"></div>
                 </label>
               </div>
@@ -212,13 +217,81 @@
             <p class="mt-0 mb-20 c-grey fs-15">
               Security Information About Your Account
             </p>
+            <div class="security-box mb-15 flex-between">
+              <div>
+                <span>Password</span>
+                <p class="c-grey fs-13 mt-5 mb-0">Last Change On 25/01/2026</p>
+              </div>
+              <a href="#" class="btn-shape c-white bg-blue change">Change</a>
+            </div>
+            <div class="security-box mb-15 flex-between">
+              <div>
+                <span>Two-Factor Authentication </span>
+                <p class="c-grey fs-13 mt-5 mb-0">Enable/Disable The Feature</p>
+              </div>
+              <label for="pass">
+                <input
+                  type="checkbox"
+                  id="pass"
+                  class="toggle-checkbox"
+                  checked
+                />
+                <div class="toggle-switch"></div>
+              </label>
+            </div>
+            <div class="security-box flex-between">
+              <div>
+                <span>Devices</span>
+                <p class="c-grey fs-13 mt-5 mb-0">
+                  Check The Login Devices List
+                </p>
+              </div>
+              <a href="#" class="btn-shape c-black bg-eee">Device</a>
+            </div>
           </div>
           <!-- End Security Info -->
 
           <!-- Start Social Info -->
           <div class="social-info p-20 bg-white radius-10">
+
             <h2 class="mt-0 mb-10">Social Info</h2>
             <p class="mt-0 mb-20 c-grey fs-15">Social Media Information</p>
+
+            <div class="social-box d-flex align-center mb-15">
+              <i class="fa-brands fa-twitter flex-center c-grey"></i>
+              <input
+                type="text"
+                placeholder="Twitter Username"
+                class="p-10 w-full twitter"
+              />
+            </div>
+
+            <div class="social-box d-flex align-center mb-15">
+              <i class="fa-brands fa-facebook-f flex-center c-grey"></i>
+              <input
+                type="text"
+                placeholder="Facebook Username"
+                class="p-10 w-full facebook"
+              />
+            </div>
+
+            <div class="social-box d-flex align-center mb-15">
+              <i class="fa-brands fa-linkedin-in flex-center c-grey"></i>
+              <input
+                type="text"
+                placeholder="Linkedin Username"
+                class="p-10 w-full linkedin"
+              />
+            </div>
+
+            <div class="social-box d-flex align-center mb-15">
+              <i class="fa-brands fa-youtube flex-center c-grey"></i>
+              <input
+                type="text"
+                placeholder="Youtube Username"
+                class="p-10 w-full youtube"
+              />
+            </div>
           </div>
           <!-- End Social Info -->
 

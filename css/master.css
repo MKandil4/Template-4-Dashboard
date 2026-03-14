@@ -558,6 +558,7 @@ ul {
 /* Start Site Control */
 .toggle-checkbox {
   appearance: none;
+  display: none; /*علشان كان فيه مسافة فوقة*/
 }
 .toggle-switch {
   background-color: #ddd;
@@ -607,5 +608,60 @@ ul {
   display: inline-flex;
   width: calc(100% - 80px);
 }
+
+.general-info input:disabled {
+  cursor: no-drop;
+}
 /* End General Info */
+/* Start Security Info */
+.security-info .security-box {
+  padding-bottom: 15px;
+}
+.security-info .security-box:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+.security-box .change {
+  transition: 0.3s;
+}
+.security-box .change:hover {
+  background-color: var(--blue-alt-color);
+}
+
+/* End Security Info */
+
+/* Start Social Info */
+.social-info .social-box i {
+  background-color: #f6f6f6;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #ddd;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  transition: 0.3s;
+}
+.social-info .social-box input {
+  background-color: #f6f6f6;
+  height: 40px;
+
+  border: 1px solid #ddd;
+  border-radius: 0 6px 6px 0;
+  caret-color: var(--blue-color);
+}
+/* .social-info .social-box:focus-within i {
+  color: black;
+} */
+/*OR .social-info .social-box:has(input.twitter:focus) i*/
+.social-info .social-box:has(input.twitter:focus) i {
+  color: #1da1f2;
+}
+.social-info .social-box:has(input.facebook:focus) i {
+  color: #1877f2;
+}
+.social-info .social-box:has(input.linkedin:focus) i {
+  color: #0a66c2;
+}
+.social-info .social-box:has(input.youtube:focus) i {
+  color: #ff0000;
+}
+/* End Social Info */
 /* End Settings Page */
