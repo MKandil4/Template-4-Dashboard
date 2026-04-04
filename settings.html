@@ -20,7 +20,7 @@
     <!-- Master Css -->
     <link rel="stylesheet" href="css/master.css" />
     <!-- Master Css -->
-    <title>Kandil | Dashboard</title>
+    <title>Kandil | Settings</title>
   </head>
 
   <body>
@@ -253,7 +253,6 @@
 
           <!-- Start Social Info -->
           <div class="social-info p-20 bg-white radius-10">
-
             <h2 class="mt-0 mb-10">Social Info</h2>
             <p class="mt-0 mb-20 c-grey fs-15">Social Media Information</p>
 
@@ -298,18 +297,79 @@
           <!-- Start Widgets Control -->
           <div class="widgets-control p-20 bg-white radius-10">
             <h2 class="mt-0 mb-10">Widgets Control</h2>
-            <p class="mt-0 mb-20 c-grey fs-15">Social Media Information</p>
+            <p class="mt-0 mb-20 c-grey fs-15">Show/Hide Widgets</p>
+            <div class="control d-flex align-center mb-15">
+              <input type="checkbox" id="one" checked />
+              <label for="one">Quick Draft</label>
+            </div>
+            <div class="control d-flex align-center mb-15">
+              <input type="checkbox" id="two" checked />
+              <label for="two">Yearly Targets</label>
+            </div>
+            <div class="control d-flex align-center mb-15">
+              <input type="checkbox" id="three" checked />
+              <label for="three">Tickets Statistics</label>
+            </div>
+            <div class="control d-flex align-center mb-15">
+              <input type="checkbox" id="four" checked />
+              <label for="four">Latest News</label>
+            </div>
+            <div class="control d-flex align-center mb-15">
+              <input type="checkbox" id="five" />
+              <label for="five">Latest Tasks</label>
+            </div>
+            <div class="control d-flex align-center mb-15">
+              <input type="checkbox" id="six" checked />
+              <label for="six">Top Search Items</label>
+            </div>
           </div>
           <!-- End Widgets Control -->
 
           <!-- Start Backup Manager -->
-          <div class="backup-manager p-20 bg-white radius-10">
+          <div class="backup-control p-20 bg-white radius-10">
             <h2 class="mt-0 mb-10">Backup Manager</h2>
             <p class="mt-0 mb-20 c-grey fs-15">
               Control Backup Time And Location
             </p>
+            <div class="backup d-flex align-center mb-10">
+              <input type="radio" id="daily" name="time" checked />
+              <label for="daily">Daily</label>
+            </div>
+            <div class="backup d-flex align-center mb-10">
+              <input type="radio" id="weekly" name="time" />
+              <label for="weekly">Weekly</label>
+            </div>
+            <div class="backup d-flex align-center mb-10">
+              <input type="radio" id="monthly" name="time" />
+              <label for="monthly">Monthly</label>
+            </div>
+
+            <div class="servers d-flex align-center txt-center">
+              <input type="radio" id="server-one" name="servers" />
+              <div class="server w-full radius-10 mb-15">
+                <label for="server-one">
+                  <i class="fa-solid fa-server"></i>
+                  <span>Megaman</span>
+                </label>
+              </div>
+
+              <input type="radio" id="server-two" name="servers" checked />
+              <div class="server w-full radius-10 mb-15">
+                <label for="server-two">
+                  <i class="fa-solid fa-server"></i>
+                  Kandil
+                </label>
+              </div>
+
+              <input type="radio" id="server-three" name="servers" />
+              <div class="server w-full radius-10 mb-15">
+                <label for="server-three">
+                  <i class="fa-solid fa-server"></i>
+                  Sigma
+                </label>
+              </div>
+            </div>
           </div>
-          <!-- End Backup Manager -->
         </div>
         <!-- End Wrapper -->
       </div>
